@@ -23,7 +23,7 @@ Example:
   "dag_name_1": ["child_dag_1", "child_dag_2"],
   "dag_name_2": ["child_dag_3"]
 }
-
+```
 
 How to Run
 Make sure you have Python installed (version 3.7+ recommended).
