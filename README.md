@@ -25,20 +25,16 @@ Example:
 }
 ```
 
-How to Run
+## How to Run
 Make sure you have Python installed (version 3.7+ recommended).
 
-Install Streamlit if you haven't yet:
-pip install streamlit
-Save the app code as app.py.
+## Install Streamlit if you haven't yet:
+- pip install streamlit
+- Save the app code as app.py.
 
-Run the app:
-streamlit run app.py
+## Run the app:
+- streamlit run app.py
+
 Upload your DAG dependency JSON or use the sample.
 
 Enter a DAG name to explore dependencies.
-
-Example DAG Names (from sample JSON)
-i0001_ivo_hdr_weekly
-i1146_pnr_gfc_daily
-i1608_pra_not_rvu_ivo_tnd_talend
