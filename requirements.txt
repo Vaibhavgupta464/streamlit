@@ -4,3 +4,12 @@ json
 google-generativeai
 seaborn
 matplotlib
+streamlit
+google-generativeai
+bs4
+requests
+markdown-it-py
+mdurl
+rich
+pygments
+
