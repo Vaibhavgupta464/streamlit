@@ -1,15 +1,5 @@
 streamlit
 pandas
-json
-google-generativeai
-seaborn
 matplotlib
-streamlit
-google-generativeai
-bs4
+seaborn
 requests
-markdown-it-py
-mdurl
-rich
-pygments
-
