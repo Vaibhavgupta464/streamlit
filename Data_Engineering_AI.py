@@ -33,9 +33,9 @@ with st.sidebar:
     st.markdown("- Analyze my dataset and suggest transformations.")
     
     # API Key input
-    api_key = st.text_input("Enter xAI API Key", type="password")
+    api_key = st.text_input("Enter Open AI API Key", type="password")
     if not api_key:
-        st.warning("Please enter your xAI API key to use the AI assistant.")
+        st.warning("Please enter your Open AI API key to use the AI assistant.")
     
     # Chat input
     user_query = st.text_input("Your question:")
@@ -46,7 +46,7 @@ with st.sidebar:
             if 'df' in locals():
                 dataset_context = f"Dataset Info: {df.shape[0]} rows, {df.shape[1]} columns. Columns: {', '.join(df.columns)}. Sample data: {df.head(3).to_dict()}"
             
-            # Make API call to xAI's open ai 3
+            # Make API call to Open AI's open ai 3
             headers = {
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json"
@@ -175,4 +175,4 @@ else:
 
 # Footer
 st.markdown("---")
-st.markdown("Built with Streamlit | Powered by xAI's open ai 3 | Learn Data Engineering Concepts")
+st.markdown("Built with Streamlit | Powered by Open AI's open ai 3 | Learn Data Engineering Concepts")
